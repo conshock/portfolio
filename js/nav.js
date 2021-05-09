@@ -10,10 +10,10 @@ class Nav extends HTMLElement
             <div class ="initialsIcon">
                 <p>CS</p>
             </div>
-            <a href="#">About</a>
-            <a href="#">Resume</a>
-            <a href="#">Projects</a>
-            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./project.html">Projects</a>
+            <a href="./index.html">Home</a>
         </nav>
         `;
     }

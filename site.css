@@ -11,6 +11,7 @@
     white - white
     gold crayola - #F9C784
     dark sienna - #461220
+    purple accent - #ad03fc
 */
 
 html, body {
@@ -84,13 +85,12 @@ html, body {
     letter-spacing: .2em;
 }
 
-.myName {
+.topBar {
     background-color: #F9C784;
-    height: 29rem;
     width: 100%;
 }
 
-.myName h1 {
+.topBar h1 {
     text-align: center;   
     font-size: 5rem;
     color: #333333;
@@ -98,7 +98,7 @@ html, body {
     margin-bottom: 20px;
 }
 
-.myName h1:hover {
+.topBar h1:hover {
    letter-spacing: .2em;
 }
 
@@ -180,10 +180,43 @@ img#laptopPNG {
 }
 
 button:hover {
-    background-color: #696969;
+    background-color: #ad03fc;
 }
 
 .button {
     color: white;
     text-decoration: none;
+}
+
+.largeBar {
+    height: 29rem;
+}
+
+.aboutMe {
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.aboutMe h2 {
+    text-align: center;
+}
+
+#buText {
+    color: #ad03fc;
+}
+
+.selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 30%;
+    border-radius: 25px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 60px;
 }
