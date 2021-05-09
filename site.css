@@ -1,0 +1,189 @@
+/** 
+    Title.site.css
+    Author: Conner Shockley
+    Date:5/1/2021
+    Description: Styling for portfolio.
+*/
+
+/* 
+    Colors:
+    grey - #333333 
+    white - white
+    gold crayola - #F9C784
+    dark sienna - #461220
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #white;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    min-height: 100%;
+    margin: 0 auto ;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.navBar {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: #333333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    border: none;
+    z-index: 9999;
+}
+
+.navBar p {
+    float: left;
+    height: 100%;
+    color: #F9C784;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    transition: all .2s linear;
+    margin: 0 0;
+}
+
+.initialsIcon  p {
+    margin-top: 4px;
+    margin-left: 8px;
+    padding: 4px 5px;
+    border: 1px solid #F9C784;
+}
+
+.navBar a {
+    float: right;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
+    padding-top: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: inline-block;
+    transition: all .2s linear;
+}
+
+.navBar a:hover {
+    color: #F9C784;
+    letter-spacing: .2em;
+}
+
+.myName {
+    background-color: #F9C784;
+    height: 29rem;
+    width: 100%;
+}
+
+.myName h1 {
+    text-align: center;   
+    font-size: 5rem;
+    color: #333333;
+    transition: letter-spacing .4s;
+    margin-bottom: 20px;
+}
+
+.myName h1:hover {
+   letter-spacing: .2em;
+}
+
+img#laptopPNG {
+    text-align: center;
+    width: 10%;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome {
+    text-align: center;
+    color: #333333;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 2% 0;
+    grid-row-start: 2;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    margin: 0 0;
+    color: #333333;
+}
+
+.welcome p {
+    font-size: 2rem;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 1px solid #b5b5b5;
+}
+
+.footer-title {
+    color: #333333;
+    font-size: 2rem;
+    margin: 10px 0px;    
+}
+
+.footer a {
+    height: 100%;
+    color: #696969;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    transition: all .2s linear;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer a:hover {
+    color: #F9C784;
+    transition: .2s;
+}
+
+.buttonDiv {
+    text-align: center;
+    width: 100%;
+}
+
+.buttonDiv button {
+    font-size: 1.5rem;
+    background-color: #333333;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: #696969;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+}
